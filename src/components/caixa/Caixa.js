@@ -7,7 +7,7 @@ class Caixa extends React.Component{
     render(){
         return <section className="Caixa">
             <div className="main">
-                <Timer/>
+                <Timer minutos="10" segundos="23"/>
 
                 <div className="buttons">
                     <Botao conteudo="+"/>

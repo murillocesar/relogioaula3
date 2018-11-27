@@ -4,8 +4,8 @@ import './Timer.css';
 class Timer extends React.Component{
     render(){
         return <div className="Timer">
-            <span>00</span>
-            <span>00</span>
+            <span>{this.props.minutos}</span>
+            <span>{this.props.segundos}</span>
         </div>
     }
 }
