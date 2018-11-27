@@ -1,6 +1,7 @@
 import React from 'react';
 import './Caixa.css';
 import Timer from '../timer/Timer';
+import Botao from '../botao/Botao';
 
 class Caixa extends React.Component{
     render(){
@@ -9,14 +10,14 @@ class Caixa extends React.Component{
                 <Timer/>
 
                 <div className="buttons">
-                    <button>+</button>
-                    <button>-</button>
+                    <Botao conteudo="+"/>
+                    <Botao conteudo="-"/>
                 </div>
             </div>
 
             <div className="buttons">
-                <button>Iniciar</button>
-                <button>Zerar</button>
+                <Botao conteudo="Iniciar"/>
+                <Botao conteudo="Parar"/>
             </div>
       </section>
     }
